@@ -6,7 +6,24 @@ import plotly.express as px
 
 # Carregar os dados
 df = pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/Historical_Wildfires.csv')
-df['Mês'] = pd.to_datetime(df['Date']).dt.month_name(locale='pt_BR')  # Converter datas para nomes de meses em português
+# Mapeamento de nomes de meses para português
+month_translation = {
+    "January": "Janeiro",
+    "February": "Fevereiro",
+    "March": "Março",
+    "April": "Abril",
+    "May": "Maio",
+    "June": "Junho",
+    "July": "Julho",
+    "August": "Agosto",
+    "September": "Setembro",
+    "October": "Outubro",
+    "November": "Novembro",
+    "December": "Dezembro",
+}
+
+# Converter datas para nomes de meses em português
+df['Mês'] = pd.to_datetime(df['Date']).dt.month_name().map(month_translation)
 df['Ano'] = pd.to_datetime(df['Date']).dt.year  # Extrair o ano
 
 # Criar a aplicação Dash
