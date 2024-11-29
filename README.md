@@ -70,11 +70,11 @@ O painel consiste em gráficos que variam dinamicamente de acordo com os filtros
 
 ### Gráfico de Rosca
 Visualize a **área estimada de incêndios** em cada mês:
-![Gráfico de Rosca](https://via.placeholder.com/600x300?text=Gráfico+de+Rosca)
+![Gráfico de Rosca](https://github.com/samuel-c-santos/painel-incendios-australia/blob/main/grafico_rosca.png?raw=true)
 
 ### Gráfico de Barras
 Veja a **frequência de ocorrências vegetativas** por mês:
-![Gráfico de Barras](https://via.placeholder.com/600x300?text=Gráfico+de+Barras)
+![Gráfico de Barras](https://github.com/samuel-c-santos/painel-incendios-australia/blob/main/grafico_barras.png?raw=true)
 
 ## Contribuindo
 Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
