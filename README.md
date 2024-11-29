@@ -2,6 +2,9 @@
 
 Este projeto utiliza **Dash** e **Plotly** para criar um painel interativo que visualiza dados históricos de incêndios florestais na Austrália. Ele permite selecionar diferentes regiões e anos para explorar dados, fornecendo insights sobre a área estimada de incêndios e ocorrências vegetativas ao longo do tempo.
 
+## 🖥️ Demo
+Acesse o painel online: [Painel de Incêndios Florestais na Austrália](https://painel-incendios-australia.onrender.com)
+
 ## Funcionalidades
 - **Seleção de Região**: Escolha entre as principais regiões da Austrália.
 - **Seleção de Ano**: Visualize dados de um ano específico.
