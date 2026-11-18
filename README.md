@@ -98,6 +98,6 @@ Este projeto é licenciado sob a **MIT License**. Consulte o arquivo [LICENSE](L
 
 ## Contato
 Criado por **Samuel C. Santos**. Entre em contato via:
-- [LinkedIn](https://www.linkedin.com/in/samuelsanto-amb/)
+- [LinkedIn](https://www.linkedin.com/in/samuel-santos-geo/)
 - [GitHub](https://github.com/samuel-c-santos)
 ```
